@@ -24,18 +24,12 @@ public class StringsParameters {
         }
         String strPal3 = new String(strPal2);
         // controleer
-        System.out.println("string 1 : " + clnStr);
-        System.out.println("string 2 : " + strPal3);
         if (clnStr.equals(strPal3)){
             return true;
         }else{
             return false;
         }
     }
-    public static boolean isPhrasePalindrome (String string) {
-        return false;
-    }
-
     public static boolean isUrl(String string) {
         if (string.contains("http")){
             return true;
@@ -55,10 +49,8 @@ public class StringsParameters {
 
         for (int i = 0; i < charIn.length; i++) {
             int j = 0;
-            //boolean klinkerfound =  false;
             do {
                 if (charIn[i] == charklink[j]){
-                    //klinkerfound = true;
                     nbrKlink++;
                 }
                 j++;
