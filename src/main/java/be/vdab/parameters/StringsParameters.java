@@ -10,15 +10,23 @@ public class StringsParameters {
     public static boolean isPalindrome(String nwStr) {
         // zet string in lowercase
         String lcStr = nwStr.toLowerCase();
+        // haal spaties ervan tssn
+        String[] words = lcStr.split(" ");
+        String clnStr = "";
+        for (int i = 0; i < words.length; i++) {
+            clnStr += words[i];
+        }
         // bepaal de palidrome
-        char[] strPal = lcStr.toCharArray();
-        char[] strPal2 = new char[1000];
+        char[] strPal = clnStr.toCharArray();
+        char[] strPal2 = new char[strPal.length];
         for (int i = strPal.length-1; i >= 0; i--) {
             strPal2[strPal.length-1 - i] = strPal[i];
         }
         String strPal3 = new String(strPal2);
         // controleer
-        if (lcStr.equals(strPal3)){
+        System.out.println("string 1 : " + clnStr);
+        System.out.println("string 2 : " + strPal3);
+        if (clnStr.equals(strPal3)){
             return true;
         }else{
             return false;

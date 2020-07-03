@@ -19,46 +19,5 @@ public class TestStrings {
         System.out.println(s2);
         System.out.println(s3);
 
-        /* Teststrings
-        StringsParameters strParms = new StringsParameters();
-        if (strParms.isPalindrome(s1)){
-            System.out.println(s1 + " is een palidrome");
-        } else {
-            System.out.println(s1 + " is geen palindrome");
-        }
-        if (strParms.isUrl(s1)){
-            System.out.println(s1 + " is een url");
-        } else {
-            System.out.println(s1 + " is geen url");
-        }
-        System.out.println(s1 + " heeft "+ strParms.isVowel(s1) +
-                " klinkers.");
-        strParms = new StringsParameters();
-        if (strParms.isPalindrome(s2)){
-            System.out.println(s2 + " is een palidrome");
-        } else {
-            System.out.println(s2 + " is geen palindrome");
-        }
-        if (strParms.isUrl(s2)){
-            System.out.println(s2 + " is een url");
-        } else {
-            System.out.println(s2 + " is geen url");
-        }
-        System.out.println(s2 + " heeft "+ strParms.isVowel(s2) +
-                " klinkers.");
-        strParms = new StringsParameters();
-        if (strParms.isPalindrome(s3)){
-            System.out.println(s3 + " is een palidrome");
-        } else {
-            System.out.println(s3 + " is geen palindrome");
-        }
-        if (strParms.isUrl(s3)){
-            System.out.println(s3 + " is een url");
-        } else {
-            System.out.println(s3 + " is geen url");
-        }
-        System.out.println(s3 + " heeft "+ strParms.isVowel(s3) +
-                " klinkers.");*/
-
-    }
+     }
 }
