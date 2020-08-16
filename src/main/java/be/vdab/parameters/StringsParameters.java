@@ -1,3 +1,7 @@
+// Looking back at this code after a few weeks, do you still understand what's going on here? 
+// NO MORE ABBREVIATIONS
+// Undermines readability of your code
+
 package be.vdab.parameters;
 
 public class StringsParameters {
